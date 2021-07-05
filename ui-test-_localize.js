@@ -14,16 +14,12 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 			});
 		});
 
-		it('localizes OLSKJarHeading', function() {
-			browser.assert.text('#TestHeading', uLocalized('OLSKJarHeadingText'));
-		});
-
 		it('localizes OLSKJarBlurb', function () {
 			browser.assert.text(OLSKJarBlurb, uLocalized('OLSKJarBlurbText'));
 		});
 	
 		it('localizes OLSKJarContributeButton', function() {
-			browser.assert.text(OLSKJarContributeButton, uLocalized('OLSKJarContributeButtonText'));
+			browser.assert.text(OLSKJarContributeButton, '❤️ ' + uLocalized('OLSKJarContributeButtonText'));
 		});
 
 	});

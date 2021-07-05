@@ -12,10 +12,6 @@ describe('OLSKJar_Misc', function () {
 			browser.assert.hasClass(OLSKJarContributeButton, 'OLSKDecorPress');
 		});
 
-		it('classes OLSKDecorPressCall', function () {
-			browser.assert.hasClass(OLSKJarContributeButton, 'OLSKDecorPressCall');
-		});
-
 		it('sets href', function () {
 			browser.assert.attribute(OLSKJarContributeButton, 'href', 'https://opencollective.com/rosano/contribute');
 		});
