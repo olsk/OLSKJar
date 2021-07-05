@@ -1,8 +1,4 @@
 {
   "name": "OLSKJar",
-  "main": "main.ejs",
-  "devDependencies": {
-    "normalize.css": "latest",
-    "OLSKDecor": "olsk/OLSKDecor"
-  }
+  "main": "main.ejs"
 }
