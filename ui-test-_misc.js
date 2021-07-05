@@ -6,6 +6,14 @@ describe('OLSKJar_Misc', function () {
 		return browser.OLSKVisit(kDefaultRoute);
 	});
 
+	describe('OLSKJar', function test_OLSKJar () {
+
+		it('classes OLSKDecorModule', function () {
+			browser.assert.hasClass(OLSKJar, 'OLSKDecorModule');
+		});
+		
+	});
+
 	describe('OLSKJarContributeButton', function test_OLSKJarContributeButton () {
 
 		it('classes OLSKDecorPress', function () {
