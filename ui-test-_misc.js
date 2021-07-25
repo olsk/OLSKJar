@@ -21,7 +21,7 @@ describe('OLSKJar_Misc', function () {
 		});
 
 		it('sets href', function () {
-			browser.assert.attribute(OLSKJarContributeButton, 'href', 'https://opencollective.com/rosano/contribute');
+			browser.assert.attribute(OLSKJarContributeButton, 'href', 'https://opencollective.com/rosano');
 		});
 
 		it('sets target', function () {
