@@ -7,7 +7,7 @@ Object.entries({
 
 	OLSKJarContributeButton: '.OLSKJarContributeButton',
 }).map(function (e) {
-	return global[e.shift()]  = e.pop();
+	return global[e.shift()] = e.pop();
 });
 
 describe('OLSKJar_Access', function () {
