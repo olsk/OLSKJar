@@ -15,11 +15,11 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		});
 
 		it('localizes OLSKJarBlurb', function () {
-			browser.assert.text(OLSKJarBlurb, uLocalized('OLSKJarBlurbText'));
+			return browser.assert.text(OLSKJarBlurb, uLocalized('OLSKJarBlurbText'));
 		});
 	
 		it('localizes OLSKJarContributeButton', function() {
-			browser.assert.text(OLSKJarContributeButton, '❤️ ' + uLocalized('OLSKJarContributeButtonText'));
+			return browser.assert.text(OLSKJarContributeButton, '❤️ ' + uLocalized('OLSKJarContributeButtonText'));
 		});
 
 	});

@@ -17,15 +17,15 @@ describe('OLSKJar_Access', function () {
 	});
 
 	it('shows OLSKJar', function () {
-		browser.assert.elements(OLSKJar, 1);
+		return browser.assert.elements(OLSKJar, 1);
 	});
 
 	it('shows OLSKJarBlurb', function () {
-		browser.assert.elements(OLSKJarBlurb, 1);
+		return browser.assert.elements(OLSKJarBlurb, 1);
 	});
 
 	it('shows OLSKJarContributeButton', function () {
-		browser.assert.elements(OLSKJarContributeButton, 1);
+		return browser.assert.elements(OLSKJarContributeButton, 1);
 	});
 
 });

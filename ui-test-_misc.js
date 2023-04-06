@@ -9,7 +9,7 @@ describe('OLSKJar_Misc', function () {
 	describe('OLSKJar', function test_OLSKJar () {
 
 		it('classes OLSKDecorModule', function () {
-			browser.assert.hasClass(OLSKJar, 'OLSKDecorModule');
+			return browser.assert.hasClass(OLSKJar, 'OLSKDecorModule');
 		});
 		
 	});
@@ -17,15 +17,15 @@ describe('OLSKJar_Misc', function () {
 	describe('OLSKJarContributeButton', function test_OLSKJarContributeButton () {
 
 		it('classes OLSKDecorPress', function () {
-			browser.assert.hasClass(OLSKJarContributeButton, 'OLSKDecorPress');
+			return browser.assert.hasClass(OLSKJarContributeButton, 'OLSKDecorPress');
 		});
 
 		it('sets href', function () {
-			browser.assert.attribute(OLSKJarContributeButton, 'href', 'https://rosano.ca/back');
+			return browser.assert.attribute(OLSKJarContributeButton, 'href', 'https://rosano.ca/back');
 		});
 
 		it('sets target', function () {
-			browser.assert.attribute(OLSKJarContributeButton, 'target', '_blank');
+			return browser.assert.attribute(OLSKJarContributeButton, 'target', '_blank');
 		});
 
 	});
